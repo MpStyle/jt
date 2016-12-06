@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test 3</title>
+    <script src="jquery.min.js"></script>
+    <script src="jt.js"></script>
+</head>
+<body>
+
+<script>
+    $(function () {
+        $("#template").jt({
+            destination: "#container",
+            data: [
+                {
+                    hello: "Hello world!",
+                    hello_source: "en",
+                    tooltip: "Hello world",
+                    hello_alternative: "Hello",
+                    lang: "#en",
+                    color: "black"
+                },
+                {
+                    hello: "Ciao mondo",
+                    hello_source: "it",
+                    tooltip: "Ciao mondo",
+                    hello_alternative: "Ciao",
+                    lang: "#it",
+                    color: "red"
+                },
+                {
+                    hello: "aaa",
+                    hello_source: "bbb",
+                    tooltip: "ccc",
+                    hello_alternative: "ddd",
+                    lang: "eee",
+                    color: "fff"
+                }
+            ],
+            subConfiguration: {
+                template: "#sub-container",
+                destination: "#sub-container",
+                data: [
+                    {
+                        hello: "Hello world!",
+                        hello_source: "en",
+                        tooltip: "Hello world",
+                        hello_alternative: "Hello",
+                        lang: "#en",
+                        color: "black"
+                    },
+                    {
+                        hello: "Ciao mondo",
+                        hello_source: "it",
+                        tooltip: "Ciao mondo",
+                        hello_alternative: "Ciao",
+                        lang: "#it",
+                        color: "red"
+                    },
+                    {
+                        hello: "aaa",
+                        hello_source: "bbb",
+                        tooltip: "ccc",
+                        hello_alternative: "ddd",
+                        lang: "eee",
+                        color: "fff"
+                    }
+                ]
+            },
+            beforeRender: [
+                function ($template, item) {
+                    $template.append(item.hello_source);
+                    return $template;
+                }
+            ]
+        });
+    });
+</script>
+
+<div id="container"></div>
+
+<div id="template">
+    <a data-jt="hello"
+       data-jt-src="hello_source"
+       data-jt-title="tooltip"
+       data-jt-alt="hello_alternative"
+       data-jt-link="lang"
+       data-jt-class="color"></a>
+    <div id="#sub-container">
+        <a data-jt="hello"
+           data-jt-src="hello_source"
+           data-jt-title="tooltip"
+           data-jt-alt="hello_alternative"
+           data-jt-link="lang"
+           data-jt-class="color"></a>
+    </div>
+</div>
+
+</body>
+</html>
