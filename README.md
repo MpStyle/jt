@@ -1,4 +1,4 @@
-jT - Javascript Template
+# jT - Javascript Template
 
 Javascript Template Engine. Fast and simple. A lot of attributes supported in only 1,5 KB
 

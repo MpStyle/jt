@@ -1,7 +1,7 @@
 {
   "name": "jT",
-  "version": "0.1.0",
-  "description": "Javascript Template Engine",
+  "version": "1.0.0",
+  "description": "Javascript Template Engine. Fast and simple. A lot of attributes supported in only 1,5 KB",
   "author": "Michele Pagnin",
   "license": "LGPL v3",
   "dependencies": {
