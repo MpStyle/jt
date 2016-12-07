@@ -83,9 +83,6 @@ Javascript Template Engine. Fast and simple. A lot of attributes supported in on
 </html>
 ```
 
-
-
-
 # Development
 - Clone the repository
 - Install NPM
@@ -101,4 +98,3 @@ grunt
 # History
 
 ### 1.0.0
-- Updated the typescript definitions.

@@ -1,5 +1,4 @@
 .idea/
 .tscache/
-dist/
 node_modules/
 test/html/jt.*
