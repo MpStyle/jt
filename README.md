@@ -2,9 +2,15 @@
 
 Javascript Template Engine. Fast and simple. A lot of attributes supported in only 1,5 KB
 
+## Installation
+
+```
+npm install jquery-jt
+```
+
 ## Include
 ```html
-<script type="text/javascript" src="dist/jquery-mtemplatejs.min.js"></script>
+<script type="text/javascript" src="node_modules/jquery-jt/dist/jt.min.js"></script>
 ```
 
 ## Template attributes:
