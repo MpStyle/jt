@@ -1,6 +1,6 @@
-# jT - Javascript Template
+# jquery-jt - Javascript Template
 
-Javascript Template Engine. Fast and simple. A lot of attributes supported in only 1,5 KB
+A very fast and simple jquery template engine. A lot of attributes supported in only 1,5 KB
 
 ## Installation
 
