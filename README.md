@@ -83,7 +83,21 @@ Javascript Template Engine. Fast and simple. A lot of attributes supported in on
 </html>
 ```
 
-# Development
+The result will be:
+
+```html
+
+<div id="template">
+    <a src="en" title="Hello world" alt="Hello" href="#en" class="black">Hello world!</a>
+en
+    <a src="it" title="Ciao mondo" alt="Ciao" href="#it" class="red">Ciao mondo</a>
+it
+    <a src="bbb" title="ccc" alt="ddd" href="eee" class="fff">aaa</a>
+bbb</div>
+
+```
+
+## Development
 - Clone the repository
 - Install NPM
 - In the root of the project run:
@@ -95,6 +109,6 @@ To build run:
 grunt
 ```
 
-# History
+## History
 
 ### 1.0.0
