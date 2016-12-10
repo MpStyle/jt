@@ -1,7 +1,24 @@
 {
   "name": "jquery-jt",
-  "version": "1.0.0",
-  "description": "Javascript Template Engine. Fast and simple. A lot of attributes supported in only 1,5 KB",
+  "version": "1.0.1",
+  "description": "A very fast and simple jquery template engine. A lot of attributes supported in only 1,5 KB",
+  "keywords": [
+    "template engine",
+    "template",
+    "engine",
+    "html",
+    "html attribute",
+    "inline definition",
+    "jquery"
+  ],
+  "homepage": "https://github.com/MpStyle/jt",
+  "bugs": {
+    "url": "https://github.com/MpStyle/jt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MpStyle/jt.git"
+  },
   "author": "Michele Pagnin",
   "license": "LGPL v3",
   "dependencies": {
