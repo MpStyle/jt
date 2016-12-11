@@ -39,7 +39,12 @@
         }
 
         /**
-         * Clean an array.
+         * Clean an array, any kind of value will be converted in an array:
+         * <ul>
+         *     <li>if undefined then returns an empty array</li>
+         *     <li>if literal or object value then returns an array collecting the value</li>
+         *     <li>if array then returns it</li>
+         * </ul>
          *
          * @param value
          * @returns {any[]}
@@ -49,7 +54,7 @@
         }
 
         /**
-         * Clean the configuration using correct values (coming from DEFAULT_CONFIGURATION) for the invalid user configuration values.
+         * Cleans the user configuration values using correct values (merging it with DEFAULT_CONFIGURATION).
          *
          * @param configuration
          * @returns {Configuration}

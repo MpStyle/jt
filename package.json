@@ -1,15 +1,19 @@
 {
   "name": "jquery-jt",
-  "version": "1.0.1",
-  "description": "A very fast and simple jquery template engine. A lot of attributes supported in only 1,5 KB",
+  "version": "1.0.2",
+  "description": "A very and really fast and simple jquery template engine. A lot of attributes supported in only 1,2 KB (0,84 KB with gzip)",
   "keywords": [
     "template engine",
     "template",
+    "performance",
+    "fast",
     "engine",
-    "html",
-    "html attribute",
-    "inline definition",
-    "jquery"
+    "jquery",
+    "small",
+    "little",
+    "very little",
+    "very small",
+    "performing"
   ],
   "homepage": "https://github.com/MpStyle/jt",
   "bugs": {
@@ -26,10 +30,15 @@
   },
   "devDependencies": {
     "@types/jquery": "^2.0.34",
+    "dalek-browser-chrome": "0.0.11",
+    "dalekjs": "0.0.9",
     "grunt": "~1.0.1",
     "grunt-contrib-uglify": "~2.0.0",
     "grunt-contrib-watch": "~1.0.0",
     "grunt-ts": "~6.0.0-beta.3",
     "typescript": "~2.0.3"
+  },
+  "scripts": {
+    "test": "dalek test/script/*.js"
   }
 }
